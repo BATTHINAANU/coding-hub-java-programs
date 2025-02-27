@@ -2,11 +2,116 @@ class Zomato
 {
 public static void main(String args[])
 {
-String customer_name="Anu Batthina";
-System.out.println("Customer name : "+customer_name);
+String service_name="              ZOMATO            ";
+System.out.println(service_name);
+System.out.println("             --------                       ");
+
+System.out.println("                                       ");
+
+
+String available_food="Veg & NonVeg Multi Cuisine";
+System.out.println(available_food);
+
+String shop_no="2 & 3.";
+System.out.println("Shop No."+shop_no);
+
+String location="Pragathi nagar,Secunderabad,Hyderabad,Road no";
+long pincode=521149l;
+System.out.println(location+" "+pincode);
 
 String phone_no="9949147427";
-System.out.println("contact info is : "+phone_no);
+String alternative_no="9505997477";
+System.out.println("Ph: "+phone_no+","+alternative_no);
+
+System.out.println("                                       ");
+System.out.println("--------------CASH MEMO---------------");
+System.out.println("                                       ");
+
+
+String ordered_date="24/02/2025";
+String bill_no="D/46";
+System.out.println("Date: "+ordered_date+"     "+"Bill No.  :"+bill_no);
+
+System.out.println("");
+
+String delivery_boy_name="GANESH";
+System.out.println("Boy : "+delivery_boy_name);
+
+System.out.println("");
+System.out.println("--------------------------------------");
+
+System.out.println("Particulars        Qty   Rate   Amount");
+
+System.out.println("--------------------------------------");
+
+boolean food_availability=true;
+String my_order="MUSHROOM PIZZA";
+int qty=2;
+int rate=500;
+int amount=qty*rate;
+int price=amount;
+int discount=80;
+price=price-discount;
+short delivery_charges=60;
+price=price+delivery_charges;
+String payment_method="Phonepe";
+if(payment_method=="Phonepe")
+{
+discount=50;
+price=price-discount;
+}
+else if(payment_method=="gpay")
+{
+discount=50;
+price=price-discount;
+}
+else if(payment_method=="paytm")
+{
+discount=20;
+price=price-discount;
+}
+else if(payment_method=="Credit Card")
+{
+discount=40;
+price=price-discount;
+}
+else if(payment_method=="Debit Card")
+{
+discount=50;
+price=price-discount;
+}
+int gst=20;
+price=price+gst;
+
+System.out.println(my_order+"      "+qty+"    "+rate+"    "+amount);
+
+System.out.println("--------------------------------------");
+
+int count_items_ordered=1;
+System.out.println(count_items_ordered+"/"+qty+"     "+"          Total :        "+price);
+
+System.out.println("--------------------------------------");
+
+String gst_no="27ABAFM877";
+System.out.println("GST NO : "+gst_no);
+
+System.out.println("--------------------------------------");
+
+
+System.out.println("     Thank You    "+"Visit Again");
+
+System.out.println("                                      ");
+System.out.println("                                      ");
+System.out.println("                                      ");
+
+
+
+
+
+
+
+String customer_name="Anu Batthina";
+System.out.println("Customer name : "+customer_name);
 
 char gender='F';
 System.out.println("Gender is : "+gender);
@@ -14,55 +119,8 @@ System.out.println("Gender is : "+gender);
 String email="batthinaanu068@gmail.com";
 System.out.println("Email address is : "+email);
 
-String ordered_date="24-02-2025";
-System.out.println("Ordered date : "+ordered_date);
-
-String service="Food Service";
-System.out.println("service : "+service);
-
-String service_name="Zomato";
-System.out.println("service name : "+service_name);
-
-String my_order=" Mushroom Pizza ";
-System.out.println("Item i ordered : "+my_order);
-
-boolean food_availability=true;
-String location="Pragathi nagar,kphb colony,Hyderabad,Road no";
-System.out.println("Location is : "+location);
-
-double price=500;
-int quantity=2;
-System.out.println("Quantity is : "+quantity);
-
-price=price*quantity;
-System.out.println("Price is : "+price);
-
 double delivery_time=20;
 System.out.println("Delivery within "+delivery_time+" minutes");
-
-double discount=20;
-price=price-discount;
-System.out.println("Price after discount : "+price);
-
-byte gst=50;
-price=price+gst;
-System.out.println("Price after gst : "+price);
-
-short delivery_charges=60;
-price=price+delivery_charges;
-System.out.println("Price after delivery charges : "+price);
-
-String payment_method="Phonepe";
-if(payment_method=="Phonepe"||payment_method=="gpay"||payment_method=="paytm")
-{
-discount=50;
-price=price-discount;
-System.out.println("price when payment method is phonepe is : "+price);
-}
-else
-{
-System.out.println("price when cashon delivery"+price);
-}
 
 
 String food_taste="Super";
