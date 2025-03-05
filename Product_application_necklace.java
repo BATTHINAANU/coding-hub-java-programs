@@ -47,6 +47,8 @@ class Product_application_necklace
 				ptotal=ptotal-discount_inr;
 			        System.out.println("Price after discount is : "+ptotal);
 			
+
+
 				}
 				else 
 				{
