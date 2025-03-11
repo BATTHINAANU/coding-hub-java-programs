@@ -7,5 +7,6 @@ public class Main
 
         System.out.println("Character: " + ch);
         System.out.println("Double: " + dbl);
+
 }
 }
