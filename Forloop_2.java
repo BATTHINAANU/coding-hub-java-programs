@@ -4,12 +4,12 @@ class Forloop_2
 	{	int start=1;
 		while(start<=10)
 		{	
-			if(start==5);
+			if(start==5)
 			{
 			//break;
 			continue;
 			}
-		//System.out.println(start);
+		System.out.println(start);
 		start++;
 		}
 	}
