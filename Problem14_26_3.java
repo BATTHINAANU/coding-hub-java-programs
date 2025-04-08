@@ -2,6 +2,7 @@ class Problem14_26_3
 {
 	public static void main(String args[])
 	{
+		//Bubble sort
 		int a[]={100};
 		int max1=Integer.MIN_VALUE,temp=0,temp1=max1;
 		if(a.length>1)
